@@ -1,10 +1,10 @@
 :root {
-    --primary: #ccdad1;
-    --secondary: #dce9d5;
-    --tertiary: #788585;
-    --light-dark: #a1a0a1;
-    --dark: #201110;
-    --border-radius: .3rem;
+    --primary: #e1e7e3;
+    --secondary: #ccffb1;
+    --tertiary: #afd4d4;
+    --light-dark: #92a5a2;
+    --dark: #11241c;
+    --border-radius: .4rem;
 }
 
 * {
@@ -15,17 +15,13 @@ body {
     background-color: var(--primary);
     margin: 0;
     padding: 0;
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--dark);
     line-height: 1.5;
     font-size: 24px;
 }
 
-h1,
-h2,
-h3,
-h5,
-h6 {
+h1, h2, h3, h5, h6 {
     font-weight: 700;
     margin: 0;
     color: var(--dark);
@@ -91,8 +87,8 @@ p {
     transform: translate(-1px, -1px);
     display: inline-block;
     width: auto;
-    margin-top: 20px;
-    padding: 15px;
+    margin-top: 22px;
+    padding: 16px;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -157,7 +153,6 @@ p {
     color: rgb(29, 153, 255);
 }
 
-/* CARDS */
 .card {
     margin: 0 0 20px 0;
     border: 2px solid var(--dark);
@@ -167,12 +162,12 @@ p {
 .card-header {
     color: var(--primary);
     background-color: var(--dark);
-    padding: 1%;
+    padding: 2%;
     border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
 }
 
 .card-body {
-    padding: 1%;
+    padding: 2%;
 }
 
 h4 {
@@ -200,13 +195,11 @@ footer {
     border-top: 1px solid #ccc;
     display: flex;
     justify-content: center;
-    padding: 1%;
+    padding: 2%;
     font-size: 110%;
 }
 
-.form_label,
-.form_input,
-.form_textarea {
+.form_label, .form_input, .form_textarea {
     display: block;
 }
 
@@ -217,19 +210,11 @@ footer {
 
 .form_input {
     width: 100%;
-    padding: 3%;
+    padding: 2%;
     margin: 5px 0;
     font-size: 1.2rem;
     border: 2px solid var(--light-dark);
     border-radius: var(--border-radius);
-}
-
-.min-100-vh {
-    min-height: 100vh;
-}
-
-.min-100-vw {
-    min-width: 100vw;
 }
 
 .text-uppercase {
@@ -329,4 +314,12 @@ footer {
 
 .col-12 {
     flex: 0 0 100%;
+}
+
+.min-100-vh {
+    min-height: 100vh;
+}
+
+.min-100-vw {
+    min-width: 100vw;
 }
