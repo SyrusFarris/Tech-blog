@@ -42,3 +42,16 @@ WHEN I click on the logout option in the navigation
 THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
+
+
+## Difficulties
+I had to research MVC beacuse it's been while since i've done it. Also Had to do reserach on what exactly the project will need to function, thank google & youtube! I still can't get the body for handlebars to render the seed post but I think it may just be a error in my seeding or paths I will look into this more.
+
+
+## Screen Shot
+
+![screenshot](./assets/techblog.PNG)
+
+## Links
+
+Github: https://github.com/SyrusFarris/Tech-blog
